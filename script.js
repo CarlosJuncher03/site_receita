@@ -13,6 +13,7 @@ const receitas = [
   { nome: "Suco Verde", imagem: "images/suco_verde.jpg", categoria: "Receitas", pagina: "receita_suco_verde.html" },
   { nome: "Mousse de Maracujá", imagem: "images/mousse_de_maracuja.jpg", categoria: "Receitas", pagina: "receita_mousse_de_maracuja.html" },
   { nome: "Bolo de Cenoura", imagem: "images/bolo_de_cenoura.jpg", categoria: "Receitas", pagina: "receita_bolo_de_cenoura.html" },
+  { nome: "Salada", imagem: "images/bolo_de_cenoura.jpg", categoria: "Saladas", pagina: "receita_salada_caesar.html" },
 ];
 const container = document.getElementById("receitas-container");
 const categorias = [...new Set(receitas.map(r => r.categoria))];
